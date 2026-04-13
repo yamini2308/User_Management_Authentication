@@ -1,0 +1,70 @@
+body {font-family:Arial, sans-serif;
+background:lightblue;
+text-align: center;}
+/*container*/
+.container {
+   width: 300px;
+   margin: 100px auto;
+   padding:20px;
+   background: white;
+   border: radius 10px;
+   box-shadow: 0px 0px 10px grey;
+   text-align: center;
+}
+/* Inputs */
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+}
+/* buttons*/
+button {
+    padding: 10px 20px;
+    border:none;
+    color: white;
+    cursor: pointer;
+}
+/* button colors */
+.login-btn {
+    background:blue;
+}
+.login-btn:hover {
+    background: navy;
+}
+.register-btn {
+    background: green;
+}
+.register-btn:hover {
+    background: darkgreen;
+}
+.logout-btn{
+    background: red;
+}
+.logout-btn:hover {
+    background: darkred;
+}
+.view-btn{
+    background: cyan;
+}
+.view-btn:hover{
+    background: darkcyan;
+}
+.view-btn,.logout-btn{
+    display: block;
+    margin:10px auto;
+    width: fit-content;
+}
+/* links */
+a {
+    text-decoration: none;
+    color: blue;
+}
+/* Dashboard*/
+.box {
+    width: 100%;
+    height: 100vh;
+    background:yellow;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid gray;
+}

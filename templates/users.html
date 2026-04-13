@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>All Users</title> 
+        <link rel="stylesheet" 
+        href="/static/style.css">
+    </head>
+    <body>
+        <h2>Registered Users</h2>
+        <table border="1">
+            <tr>
+                <Th>Username</Th>
+                <th>Email</th>
+            </tr>
+            {% for user in users %}
+            <tr>
+                <td>{{user[0]}}</td>
+                <td>{{user[1]}}</td>
+            </tr>
+            {% endfor %}
+        </table>
+        <br>
+        <a href="/dashboard">Back</a>
+    </body>
+</html>

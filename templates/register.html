@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+         <link rel="stylesheet" 
+         href="/static/style.css">
+    </head>
+    <body>
+        <div class="container">
+        <h2>Register Page</h2>
+        {% if message %}
+        <p style="color: green;">{{message}}</p>
+        {% endif %}
+        <form method='POST'>
+            <label>Username:</label>
+            <input type="text" name="Username" placeholder="Enter Username"><br>
+            <label>Email:</label>
+            <input type="text" name="Email" placeholder="Enter Email Address"><br>
+            <label>Password:</label>
+            <input type="text" name="Password" placeholder="Enter Password"><br>
+            <button class="register-btn">Register</button>
+        </form>
+        <p>Already have an account? <a href="/login">Login</a></p>
+        </div>
+    </body>
+</html>
