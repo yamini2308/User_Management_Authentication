@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Authentication System(Flask)
 
 ## Description
@@ -63,3 +64,6 @@ This Project is a simple user authentication system built usung Flask.
 3.Open http://127.0.0.1:5000
 
 
+=======
+# User_Management_Authentication
+>>>>>>> ddabb9407748cfd3670b8f1e597b17c58b6fd55a
